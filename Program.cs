@@ -12,6 +12,12 @@ using System.Linq;
 Console.WriteLine(string.Join(",", Kata.UpArray(new int[] {9, 9, 9, 9})));
 public static class Kata
 {
+  //Returns the mid of the filename -> 1231231223123131_myFile.tar.gz2 -> myFile.tar
+  public static string ExtractFileName(string s){
+    return s[(s.IndexOf('_') + 1) .. s.LastIndexOf('.')];
+  }
+
+  //Increases the array by 1 -> goes from 9,9,9 to 1,0,0,0, from 1,0,0,9 to 1,0,1,0  
   public static int[] UpArray(int[] num){
 		
     //Checks if num isn't empty or if it has any number lower than 0 or bigger than 9
@@ -34,9 +40,13 @@ public static class Kata
     //Assuming it got to the end, we need a bigger array (for 999, the return must be 1000)
     return new []{1}.Concat(num).ToArray();
 	}
+  
+  //Split the string by vowels and sums the value of the substrings
   public static int Solve(string s){
     return s.Split('a', 'e', 'i', 'o', 'u').Max(x => x.Sum(c => c - 96));
   }
+  
+  //Decipher a message
   public static string DecipherThis(string s){
     
     string[] words = s.Split(" ");
@@ -76,6 +86,8 @@ public static class Kata
     
     return result;
   }
+  
+  //Prints a diamond
   public static string print(int n)
 	{
 		if (n <= 0 || n % 2 == 0) return new string("");
@@ -102,6 +114,8 @@ public static class Kata
         return diamond;
 
 	}
+
+  //Calculates how many years it takes to value increae until it reaches the desired value
   public static int CalculateYears(double principal, double interest,  double tax, double desiredPrincipal){
 
     if (principal == desiredPrincipal) return 0;
@@ -121,6 +135,8 @@ public static class Kata
 
     return years;
   }
+
+  //Remove the smallest number
   public static List<int> RemoveSmallest(List<int> numbers)
   {
 
@@ -142,6 +158,8 @@ public static class Kata
     
     return lst;*/
   }
+
+//Changes the order of the array
   public static int DescendingOrder(int num)
   {
     string str = num.ToString();
