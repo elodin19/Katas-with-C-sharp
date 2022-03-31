@@ -1,0 +1,15 @@
+/Users/danieljoanol/Desktop/OpenBootcamp/C#/Katas/bin/Debug/net6.0/Katas
+/Users/danieljoanol/Desktop/OpenBootcamp/C#/Katas/bin/Debug/net6.0/Katas.deps.json
+/Users/danieljoanol/Desktop/OpenBootcamp/C#/Katas/bin/Debug/net6.0/Katas.runtimeconfig.json
+/Users/danieljoanol/Desktop/OpenBootcamp/C#/Katas/bin/Debug/net6.0/Katas.dll
+/Users/danieljoanol/Desktop/OpenBootcamp/C#/Katas/bin/Debug/net6.0/Katas.pdb
+/Users/danieljoanol/Desktop/OpenBootcamp/C#/Katas/obj/Debug/net6.0/Katas.csproj.AssemblyReference.cache
+/Users/danieljoanol/Desktop/OpenBootcamp/C#/Katas/obj/Debug/net6.0/Katas.GeneratedMSBuildEditorConfig.editorconfig
+/Users/danieljoanol/Desktop/OpenBootcamp/C#/Katas/obj/Debug/net6.0/Katas.AssemblyInfoInputs.cache
+/Users/danieljoanol/Desktop/OpenBootcamp/C#/Katas/obj/Debug/net6.0/Katas.AssemblyInfo.cs
+/Users/danieljoanol/Desktop/OpenBootcamp/C#/Katas/obj/Debug/net6.0/Katas.csproj.CoreCompileInputs.cache
+/Users/danieljoanol/Desktop/OpenBootcamp/C#/Katas/obj/Debug/net6.0/Katas.dll
+/Users/danieljoanol/Desktop/OpenBootcamp/C#/Katas/obj/Debug/net6.0/refint/Katas.dll
+/Users/danieljoanol/Desktop/OpenBootcamp/C#/Katas/obj/Debug/net6.0/Katas.pdb
+/Users/danieljoanol/Desktop/OpenBootcamp/C#/Katas/obj/Debug/net6.0/Katas.genruntimeconfig.cache
+/Users/danieljoanol/Desktop/OpenBootcamp/C#/Katas/obj/Debug/net6.0/ref/Katas.dll
